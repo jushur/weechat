@@ -1,0 +1,100 @@
+####################################################################################
+# Screenshot shows.
+# Default Ubuntu 17.04 terminal.
+# With terminal theme "Solarized Dark" and color theme "Solarized".
+
+# I usually toggle/hide my nicklist with meta+n (meta-n => /bar toggle nicklist)
+####################################################################################
+
+
+####################################################################################
+
+# Weechat settings (obs may be missing something, feel free to report that to me).
+# You can find me on IRC server: irc.freenode.net channel: #weechat username: jushur
+####################################################################################
+
+/set weechat.look.bar_more_down ▼
+/set weechat.look.bar_more_left ◀
+/set weechat.look.bar_more_right ▶
+/set weechat.look.bar_more_up ▲
+
+
+/set weechat.look.item_buffer_filter ⚑
+/set weechat.look.prefix_action ⚡
+/set weechat.look.prefix_error ⚠
+/set weechat.look.prefix_join →
+
+# note the space after the sign "ℹ " in there.. :)
+
+/set weechat.look.prefix_network "ℹ "
+/set weechat.look.prefix_quit ←
+/set weechat.look.prefix_same_nick ⤷
+/set weechat.look.prefix_suffix │
+
+/set weechat.look.bare_display_time_format %H:%M:%S
+/set weechat.look.buffer_time_format [%H:%M:%S]
+/set weechat.look.item_time_format %H:%M:%S
+/set weechat.look.quote_time_format %H:%M:%S
+
+/set weechat.look.quote_nick_prefix <
+/set weechat.look.quote_nick_suffix >
+
+/set weechat.look.read_marker line
+/set weechat.look.read_marker_always_show off
+/set weechat.look.read_marker_string ─
+
+/set irc.look.smart_filter on
+/set irc.look.smart_filter_join on
+/set irc.look.smart_filter_nick on
+/set irc.look.smart_filter_quit on
+
+/set irc.look.color_nicks_in_names on
+/set irc.look.color_nicks_in_nicklist on
+
+/set weechat.bar.input.color_bg default
+/set weechat.bar.input.color_delim cyan
+/set weechat.bar.input.color_fg default
+
+/set weechat.color.status_name_ssl blue
+/set weechat.color.status_time default
+/set weechat.color.status_number yellow
+/set weechat.color.status_count_msg green
+
+/set weechat.color.chat_nick_self lightblue
+/set weechat.color.chat_highlight_bg default
+/set weechat.color.chat_highlight 7
+/set weechat.color.chat_nick_colors cyan,magenta,green,brown,lightmagenta,lightred,blue,red
+
+
+##########################################################################
+# saved following for reference.
+
+weechat.look.bar_more_down = "▼"  (default: "++")
+weechat.look.bar_more_left = "◀"  (default: "<<")
+weechat.look.bar_more_right = "▶"  (default: ">>")
+weechat.look.bar_more_up = "▲"  (default: "--")
+weechat.look.bare_display_time_format = "%H:%M:%S"  (default: "%H:%M")
+weechat.look.buffer_time_format = "[%H:%M:%S]"  (default: "%H:%M:%S")
+weechat.look.item_time_format = "%H:%M:%S"  (default: "%H:%M")
+weechat.look.item_buffer_filter = "⚑"  (default: "*")
+weechat.look.prefix_action = "⚡"  (default: " *")
+weechat.look.prefix_error = "⚠"  (default: "=!=")
+weechat.look.prefix_join = "→"  (default: "-->")
+weechat.look.prefix_network = "ℹ "  (default: "--")
+weechat.look.prefix_quit = "←"  (default: "<--")
+weechat.look.prefix_same_nick = "⤷"  (default: "")
+weechat.look.prefix_suffix = "│"  (default: "|")
+weechat.look.quote_nick_prefix = "<"
+weechat.look.quote_nick_suffix = ">"
+weechat.look.quote_time_format = "%H:%M:%S"
+weechat.look.read_marker = line
+weechat.look.read_marker_always_show = off
+weechat.look.read_marker_string = "─"  (default: "- ")
+weechat.color.status_name_ssl = blue  (default: lightgreen)
+weechat.color.status_count_msg = green  (default: brown)
+weechat.color.chat_nick_self = lightblue  (default: white)
+weechat.color.chat_highlight_bg = default  (default: magenta)
+weechat.color.chat_highlight = 7  (default: yellow)
+weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightmagenta,lightred,blue,red"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+
+#############################
