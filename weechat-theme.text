@@ -6,13 +6,6 @@
 # I usually toggle/hide my nicklist with meta+n (meta-n => /bar toggle nicklist)
 ####################################################################################
 
-
-####################################################################################
-
-# Weechat settings (obs may be missing something, feel free to report that to me).
-# You can find me on IRC server: irc.freenode.net channel: #weechat username: jushur
-####################################################################################
-
 /set weechat.look.bar_more_down ▼
 /set weechat.look.bar_more_left ◀
 /set weechat.look.bar_more_right ▶
@@ -40,7 +33,10 @@
 /set weechat.look.quote_nick_suffix >
 
 /set weechat.look.read_marker line
-/set weechat.look.read_marker_always_show off
+
+# obs set this to off, if you dont want the horizontal purple line above server status
+/set weechat.look.read_marker_always_show on
+
 /set weechat.look.read_marker_string ─
 
 /set irc.look.smart_filter on
@@ -65,6 +61,8 @@
 /set weechat.color.chat_highlight 7
 /set weechat.color.chat_nick_colors cyan,magenta,green,brown,lightmagenta,lightred,blue,red
 
+/set weechat.look.prefix_align_max 15
+/set weechat.look.prefix_align_min 15
 
 ##########################################################################
 # saved following for reference.
@@ -96,5 +94,7 @@ weechat.color.chat_nick_self = lightblue  (default: white)
 weechat.color.chat_highlight_bg = default  (default: magenta)
 weechat.color.chat_highlight = 7  (default: yellow)
 weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightmagenta,lightred,blue,red"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+weechat.look.prefix_align_max = 15  (default: 0)  
+weechat.look.prefix_align_min = 15  (default: 0)
 
 #############################
