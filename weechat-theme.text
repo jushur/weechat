@@ -6,37 +6,35 @@
 # I usually toggle/hide my nicklist with meta+n (meta-n => /bar toggle nicklist)
 ####################################################################################
 
+/set weechat.startup.display_logo off
+/set weechat.startup.display_version off
+
 /set weechat.look.bar_more_down ▼
 /set weechat.look.bar_more_left ◀
 /set weechat.look.bar_more_right ▶
 /set weechat.look.bar_more_up ▲
-
-
+/set weechat.look.bare_display_time_format %H:%M:%S
+/set weechat.look.buffer_time_format [%H:%M:%S]
 /set weechat.look.item_buffer_filter ⚑
+/set weechat.look.item_time_format %H:%M:%S
 /set weechat.look.prefix_action ⚡
+/set weechat.look.prefix_align_max 15
+/set weechat.look.prefix_align_min 15
 /set weechat.look.prefix_error ⚠
 /set weechat.look.prefix_join →
 
 # note the space after the sign "ℹ " in there.. :)
-
 /set weechat.look.prefix_network "ℹ "
 /set weechat.look.prefix_quit ←
 /set weechat.look.prefix_same_nick ⤷
 /set weechat.look.prefix_suffix │
 
-/set weechat.look.bare_display_time_format %H:%M:%S
-/set weechat.look.buffer_time_format [%H:%M:%S]
-/set weechat.look.item_time_format %H:%M:%S
-/set weechat.look.quote_time_format %H:%M:%S
-
-/set weechat.look.quote_nick_prefix <
-/set weechat.look.quote_nick_suffix >
-
-/set weechat.look.read_marker line
-
-# obs set this to off, if you dont want the horizontal purple line above server status
+# obs set weechat.look.read_marker_always_show off,
+#  if you dont want the horizontal purple line above server status row when you have no unread lines.
 /set weechat.look.read_marker_always_show on
 
+# this weechat.look.read_marker setting is not changed, adding it so its not missed (incase you changed it).
+/set weechat.look.read_marker line
 /set weechat.look.read_marker_string ─
 
 /set irc.look.smart_filter on
@@ -61,8 +59,7 @@
 /set weechat.color.chat_highlight 7
 /set weechat.color.chat_nick_colors cyan,magenta,green,brown,lightmagenta,lightred,blue,red
 
-/set weechat.look.prefix_align_max 15
-/set weechat.look.prefix_align_min 15
+
 
 ##########################################################################
 # saved following for reference.
