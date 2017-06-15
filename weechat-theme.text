@@ -1,58 +1,42 @@
 ####################################################################################
 # Screenshot shows.
 # Default Ubuntu 17.04 terminal.
-# With terminal theme "Solarized Dark" and color theme "Solarized".
+# With Ubuntu terminal theme "Solarized Dark" and color theme "Solarized" and transparency unchecked.
+
+# Now using it with urxvt terminal app, look in https://github.com/jushur/rxvt-unicode repo for config.
 
 # I usually toggle/hide my nicklist with meta+n (meta-n => /bar toggle nicklist)
 ####################################################################################
 
 /set weechat.startup.display_logo off
 /set weechat.startup.display_version off
-
-/set weechat.look.bar_more_down ▼
-/set weechat.look.bar_more_left ◀
-/set weechat.look.bar_more_right ▶
-/set weechat.look.bar_more_up ▲
-/set weechat.look.bare_display_time_format %H:%M:%S
-/set weechat.look.buffer_time_format [%H:%M:%S]
-/set weechat.look.item_buffer_filter ⚑
-/set weechat.look.item_time_format %H:%M:%S
-/set weechat.look.prefix_action *
+/set weechat.look.bar_more_down "▼"
+/set weechat.look.bar_more_left "◀"
+/set weechat.look.bar_more_right "▶"
+/set weechat.look.bar_more_up "▲"
+/set weechat.look.bare_display_time_format "%H:%M:%S"
+/set weechat.look.buffer_time_format "[%H:%M:%S]"
+/set weechat.look.item_buffer_filter "⚑"
+/set weechat.look.item_time_format "%H:%M:%S"
+/set weechat.look.prefix_action "*"
 /set weechat.look.prefix_align_max 16
 /set weechat.look.prefix_align_min 16
-/set weechat.look.prefix_error ×
-/set weechat.look.prefix_join »
-/set weechat.look.prefix_network !
-/set weechat.look.prefix_quit «
-/set weechat.look.prefix_same_nick ∙
-/set weechat.look.prefix_suffix │
-
-# obs set weechat.look.read_marker_always_show off,
-#  if you dont want the horizontal purple line above server status row when you have no unread lines.
+/set weechat.look.prefix_error "×"
+/set weechat.look.prefix_join "»"
+/set weechat.look.prefix_network "!"
+/set weechat.look.prefix_quit "«"
+/set weechat.look.prefix_same_nick "∙"
+/set weechat.look.prefix_suffix "│"
 /set weechat.look.read_marker_always_show on
-
-# this weechat.look.read_marker setting is not changed, adding it so its not missed (incase you changed it).
-/set weechat.look.read_marker line
-/set weechat.look.read_marker_string ─
-
-/set irc.look.smart_filter on
-/set irc.look.smart_filter_join on
-/set irc.look.smart_filter_nick on
-/set irc.look.smart_filter_quit on
-
+/set weechat.look.read_marker_string "─"
+/set weechat.color.chat_highlight 7
+/set weechat.color.chat_highlight_bg default
+/set weechat.color.chat_nick_colors "001,002,003,004,,005,006,009,110,013,027,040,048,051,164,208,214,178"
+/set weechat.color.chat_nick_self lightblue
+/set weechat.color.chat_prefix_join green
+/set weechat.color.status_count_msg green
+/set weechat.color.status_name_ssl blue
 /set irc.look.color_nicks_in_names on
 /set irc.look.color_nicks_in_nicklist on
-
-/set weechat.bar.input.color_bg default
-/set weechat.bar.input.color_delim cyan
-/set weechat.bar.input.color_fg default
-
-/set weechat.color.status_name_ssl blue
-/set weechat.color.status_time default
-/set weechat.color.status_number yellow
-/set weechat.color.status_count_msg green
-
-/set weechat.color.chat_nick_self lightblue
-/set weechat.color.chat_highlight_bg default
-/set weechat.color.chat_highlight 7
-/set weechat.color.chat_nick_colors cyan,magenta,green,brown,lightmagenta,lightred,blue,red
+/set colorize_nicks.look.ignore_nicks_in_urls on
+/set colorize_nicks.look.ignore_tags "irc_join,irc_part,irc_quit"
