@@ -1,5 +1,5 @@
-## OBSD this is for 1.7.1 and not current. 2017-09-13 19:11
-some screenshots uploaded with the new look in 1.9+
+## OBS these config settings is for 1.7.1 and not current. 2017-09-13 19:11
+Some screenshots uploaded with the new look in 1.9+
 
 # my setup for weechat irc client
 
